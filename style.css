@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body, input, input::placeholder, textarea {
+  font-family: "Mulish", sans-serif;
+}
+
+.section1 {
+  max-width: 43.0rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 9.3rem;
+}
+
+.section1 .astro {
+  width: 36rem;
+  height: 37rem;
+}
+
+.section1 .text h1 {
+  font-weight: 900;
+  font-size: 3.2rem;
+  color: #B52184;
+  margin: 1.7rem 0 .5rem;
+}
+
+.section1 .text p {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #312D64;
+  margin-bottom: 3.5rem;
+}
+
+.section2 {
+  background-color: #343193;
+  padding: 5rem 3.9rem;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 36rem;
+  height: 44rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  background-color: #FFFFFFFF;
+  margin-bottom: 5rem;
+  padding: 2.6rem;
+}
+
+.section2 :last-child {
+  margin-bottom: 0;
+}
+.card .textc h2 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #B52184;
+  margin: 3.3rem 0 1.9rem;
+}
+
+.card .textc p {
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: #312D64;
+}
+
+.section3 {
+  max-width: 43.0rem;
+  margin: 0 auto;
+  padding: 7.8rem 4rem 0;
+  margin-bottom: 6.5rem;
+}
+
+.effect {
+  visibility: hidden;
+  display: none;
+}
+.section3 h1 {
+  font-weight: 900;
+  font-size: 3.2rem;
+  color: #B52184;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+input, textarea {
+  border: 1.5px solid #312D64;
+}
+
+#event-name{
+  background: url(assets/person.svg) no-repeat scroll 1.4rem 50%; /* ajustando a posição */
+  background-size: 2.2rem;
+  width: 100%;
+  height: 4rem;
+  border-radius: 1.6rem;
+  padding: 0 5rem;
+  color: #312D64;
+}
+
+#event-name::placeholder {
+  color: #312D64;
+}
+
+#event-email{
+  background: url(assets/arroba.svg) no-repeat scroll 1.4rem 50%; /* ajustando a posição */
+  background-size: 2.2rem;
+  width: 100%;
+  height: 4rem;
+  border-radius: 1.6rem;
+  padding: 0 5rem;
+  color: #312D64;
+}
+
+#event-email::placeholder {
+  color: #312D64;
+}
+
+#event-message, textarea{
+  width: 100%;
+  height: 12rem;
+  border-radius: 1.6rem;
+  padding: 1.6rem 1.6rem 0;
+  color: #312D64;
+}
+
+#event-message::placeholder {
+  color: #312D64;
+}
+
+#event-submit {
+  width: 15rem;
+  height: 4.5rem;
+  border-radius: 1.6rem;
+  background-color: #343193;
+  color: #FFFFFF;
+  margin: 1.6rem 0 0;
+}
+
+footer {
+  text-align: center;
+  padding: 3.2rem 0;
+  background-color: #343193;
+  color: #FFFFFFFF;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+@media (min-width: 1440px) {
+  .section1 {
+    max-width: 100%;
+    height: 83rem;
+    display: flex;
+    justify-content: center; 
+    flex-direction: row-reverse;
+    margin-bottom: 9.3rem;
+  }
+
+  .section1 .astro {
+    width: 71rem;
+    height: 73rem;
+    margin-right: 2.9rem;
+  }
+
+  .section1 .arrow {
+    width: 5.8rem;
+    height: 10rem;
+    margin-top: 17.9rem;
+  }
+
+  .section1 .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 31rem 3.2rem 0 10rem; 
+  }
+
+  .section1 .text h1 {
+    font-weight: 900;
+    font-size: 5.8rem;
+    color: #B52184;
+  }
+  
+  .section1 .text p {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #312D64;
+    margin-bottom: 3.5rem;
+  }
+
+  .section2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: row-reverse;
+  }
+
+  .section3 {
+    max-width: 100%;
+    height: 61.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .effect {
+    width: 100%;
+    visibility: visible;
+    display: flex;
+    padding: 0;
+  }
+  
+  .section3 h1 {
+    font-weight: 900;
+    font-size: 4.2rem;
+    color: #B52184;
+  }
+  
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    padding-top: 9.5rem;
+    padding-left: 10rem;
+    max-width: 59rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}
