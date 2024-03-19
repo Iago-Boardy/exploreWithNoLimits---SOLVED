@@ -1,2 +1,1 @@
-# exploreWithNoLimits---SOLVED
-Activity where we must create a website with the layout of a figma form model - Rocket Seat Explorer Course
+https://www.figma.com/file/r59YVyYjfYPewNzz3Z62pf/Explore-sem-limites-(Copy)?type=design&mode=design&t=hZVrhODbIQANbQ0k-0 - Link to the figma template
